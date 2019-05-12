@@ -1,12 +1,10 @@
 body{
   text-align: center;
 }
-#container{
+.container{
   background-image: url("../img/image1.jpg");
-  background-repeat: no-repeat;
-  font-size: 25px
-  color:white;
-  background-size: cover;
-  text-decoration-color: red;
-  
+  height: 100vh;
+  font-size: 25px;
+  color:green;
+
 }
