@@ -1,61 +1,95 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>pig-dice</title>
     <link rel="stylesheet" href="bootstrap-4.3.1-dist">
     <link rel="stylesheet" href="./css/style.css">
-    <script type= "./jquery-3.4.0.js"> </script>
-    <script type="./js/style.js">></script>
-  </head>
-  <body>
+    <script type="./js/jquery-3.4.0.js"> </script>
+    <script type="./js/script.js">></script>
+</head>
+
+<body>
     <div class="container">
-      <div class="heading">
-        <h1>WELCOME TO</h1>
-        <h1>PIG DICE</h1>
-      </div>
-      <div class="about">
-        <h2>ABOUT PIG DICE</h2>
-        <p>Pig dice is asimple dice game that was first described in print by john scarne in 1945.As with many games of folk origin, <br>pig dice is played with many rule variation.</p>
-        <p>Below are rules will use to play the  game.</p>
-          </div>
-      <div class="rules">
-        <h2>pig dice game rules</h2>
-        <p>The game consits of two players.</p>
-        <p>On a turn, a player rolls the die repeatedly. <br>The goal is to accumulate as many points as possible, adding up the numbers rolled on the die.<br> However, if a player rolls a 1, the player's turn is over and any points they have accumulated <br> during this turn are forfeited. Rolling a 1 doesn't wipe out your entire score <br> from previous turns, just the total earned during that particular roll.</p>
-        <p>A player can also choose to hold (stop rolling the die) if they do not <br>want to take a chance of rolling a 1 and losing all of their points <br> from this turn. If the player chooses to hold, all of the points rolled <br> during that turn are added to his or her score.</p>
-        <p>When a player reaches a total of 100 or more points, <br> the game ends and that player is the winner.</p>
-      </div>
-      <div id="gamespace">
-        <h2>LETS PLAY</h2>
-        <div class="player1">
-          <h3><p id="winner1"></p></h3>
-          <h4><p id="name1"></p></h4><kbd>player 1</kbd></h4></div>
-          <h4><p id="output1">pass on the dice</p></h4>
-          <h3><p id="result1"></p></h3>
-          <div class="current-box">
-          <div class="current">Round Accumulator</div>
-          <h4><p id="total1"></p><h2>
-          </div>
-          <div class="player2">
-          <h3><p id="winner2"></p></h3>
-          <h4><p id="name2"></p></h4><kbd>player 2</kbd></h4></div>
-          <h4><p id="output2">pass on the dice</p></h4>
-          <h3><p id="result2"></p></h3>
-          <div class="current-box">
-          <div class="current">Round Accumulator</div>
-          <h4><p id="total2"></p><h2>
-          </div>
-          <div class ="buttons">
-             <P><input  class="btn" type="button" value="Roll dice" id="roll"></P><br>
-             <P><input  class="btn" type="button" value="Hold" id="hold"></P><br>
-             <P><button class="btn" type="button" onclick="window.location.reload()">Reload game</button></P>
-           </div>
+        <div class="heading">
+            <h1>WELCOME TO</h1>
+            <h1>PIG DICE</h1>
         </div>
-      <script src="./jquery-3.4.0.js">
- </script>
- <script type="text/javascript" src="./js/style.js">
-</script>
-</div>
-  </body>
+        <div class="about">
+            <h2>ABOUT PIG DICE</h2>
+            <p>Pig dice is asimple dice game that was first described in print by john scarne in 1945.As with many games of folk origin, <br>pig dice is played with many rule variation.</p>
+            <p>Below are rules will use to play the game.</p>
+        </div>
+        <div class="rules">
+            <h2>pig dice game rules</h2>
+            <p>The game consits of two players.</p>
+            <p>On a turn, a player rolls the die repeatedly. <br>The goal is to accumulate as many points as possible, adding up the numbers rolled on the die.<br> However, if a player rolls a 1, the player's turn is over and any points they have accumulated
+                <br> during this turn are forfeited. Rolling a 1 doesn't wipe out your entire score <br> from previous turns, just the total earned during that particular roll.</p>
+            <p>A player can also choose to hold (stop rolling the die) if they do not <br>want to take a chance of rolling a 1 and losing all of their points <br> from this turn. If the player chooses to hold, all of the points rolled <br> during that turn
+                are added to his or her score.</p>
+            <p>When a player reaches a total of 100 or more points, <br> the game ends and that player is the winner.</p>
+        </div>
+        <div id="gamespace">
+            <h2>LETS PLAY</h2>
+            <div class="round1">
+                <div class="player1">
+                    <h3>
+                        <p id="winner1"></p>
+                    </h3>
+                    <h4>
+                        <p id="name1"></p>
+                    </h4><kbd>player 1</kbd></h4>
+                </div>
+                <h4>
+                    <p id="output1">pass on the dice</p>
+                </h4>
+                <input class="btn" type="button" value="Roll dice" id="rollp1"><br>
+                <input class="btn" type="button" value="Hold" id="holdp1"><br>
+                <h3>
+                    <p id="result1"></p>
+                </h3>
+                <div class="current-box">
+                    <div class="current">Round Accumulator</div>
+                    <h4>
+                        <p id="total1"></p>
+                        <h2>
+                </div>
+            </div>
+            <div class="round2">
+                <div class="player2">
+                    <h3>
+                        <p id="winner2"></p>
+                    </h3>
+                    <h4>
+                        <p id="name2"></p>
+                    </h4><kbd>player 2</kbd></h4>
+                </div>
+                <h4>
+                    <p id="output2">pass on the dice</p>
+                </h4>
+                <input class="btn" type="button" value="Roll dice" id="rollp2"><br>
+                <input class="btn" type="button" value="Hold" id="holdp2"><br>
+                <h3>
+                    <p id="result2"></p>
+                </h3>
+                <div class="current-box">
+                    <div class="current">Round Accumulator</div>
+                    <h4>
+                        <p id="total2"></p>
+                        <h2>
+                </div>
+            </div>
+            <div class="buttons">
+
+                <P><button class="btn" type="button" onclick="window.location.reload()">Reload game</button></P>
+            </div>
+        </div>
+        <script src="./js/jquery-3.4.0.js">
+        </script>
+        <script type="text/javascript" src="./js/script.js">
+        </script>
+    </div>
+</body>
+
 </html>
