@@ -40,6 +40,7 @@ var holdDice = function()  {
       nextPlayer();
       }
   }
+}
   var nextPlayer = function() {
       if (currentPlayer === 0) {
       currentPlayer = 1;
@@ -62,7 +63,7 @@ var holdDice = function()  {
     }
 
   // front end
-  ("#roll").click(function() {
+$("#roll").click(function() {
    rollDice();
 });
 
