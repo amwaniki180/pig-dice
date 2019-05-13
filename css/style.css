@@ -7,3 +7,9 @@ body{
   font-size: 25px;
   color:green;
 }
+.player1,.player2{
+  background-color: red;
+  float: left;
+  width: 50%
+
+}
