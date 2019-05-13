@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   if (active) {
       var randomNum = Math.floor(Math.random() * 6 + 1);
-      document.getElementById('rolled' + currentPlayer).innerHTML = "you rolled:" + randomNum;
+      document.getElementById('roll' + currentPlayer).innerHTML = "you rolled:" + randomNum;
 
       if (randomNum == 1) {
          $("#output" + currentPlayer).show();
