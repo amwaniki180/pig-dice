@@ -15,4 +15,12 @@ $(document).ready(function(){
          $("#output" + currentPlayer).show();
           nextPlayer();
        }
+       else if (randomNum !== 1) {
+         $("#output" + currentPlayer).hide();
+         total+=randomNum;
+         document.getElementById('total' + currentPlayer).innerHTML = total;
+       } else {
+          nextPlayer();
+            }
+        }
 }
