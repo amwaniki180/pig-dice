@@ -24,3 +24,14 @@ $(document).ready(function(){
             }
         }
 }
+var holdDice = function()  {
+ if (active) {
+
+     Tally[currentPlayer] += total;
+
+     document.getElementById('result' + currentPlayer).innerHTML = Tally[currentPlayer];
+
+     if (Tally[currentPlayer] >= 100) {
+         document.getElementById("winner"+ currentPlayer).innerHTML = "You Won!!!!!";
+
+         active = false;
