@@ -8,10 +8,20 @@ body{
   color:green;
 }
 .player1,.player2{
-  background-color: red;
+  background-color: black;
   float: left;
   width: 50%;
-  height: 400px;
-  padding: 100px;
+  padding: 100px
  margin-top: 0.5em;
+}
+.buttons {
+  margin-top: 200px;
+  padding-right: 100px;
+  clear: left;
+}
+.current-box {
+  border-style: outset;
+}
+.active {
+  opacity: 0.9;
 }
