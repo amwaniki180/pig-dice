@@ -10,6 +10,8 @@ body{
 .player1,.player2{
   background-color: red;
   float: left;
-  width: 50%
-
+  width: 50%;
+  height: 400px;
+  padding: 100px;
+ margin-top: 0.5em;
 }
