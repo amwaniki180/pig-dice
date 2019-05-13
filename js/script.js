@@ -35,3 +35,29 @@ var holdDice = function()  {
          document.getElementById("winner"+ currentPlayer).innerHTML = "You Won!!!!!";
 
          active = false;
+          } else {
+
+      nextPlayer();
+      }
+  }
+  var nextPlayer = function() {
+      if (currentPlayer === 0) {
+      currentPlayer = 1;
+
+      }
+      else {
+        currentPlayer = 0;
+
+      }
+
+      total = 0;
+
+      document.getElementById('total0').textContent = '0';
+      document.getElementById('total1').textContent = '0';
+
+
+      document.querySelector('.player1').classList.toggle('active');
+      document.querySelector('.player2').classList.toggle('active');
+
+
+  }
