@@ -13,7 +13,6 @@ Antony Mwaniki
 3.javascript
 
 # BDD
-|put BEHAVIOUR 
 |INPUT                            |OUTPUT                                                 |
 |:-------------------------------:|------------------------------------------------------:|
 | Player clicks roll	            | The dice rolls on the player who is active            |
