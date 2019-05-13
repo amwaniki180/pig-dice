@@ -6,7 +6,13 @@ body {
     background-image: url("../img/image1.jpg");
     background-repeat: no-repeat;
     font-size: 25px;
-    color: white;
+    color: greenyellow;
     background-size: cover;
-    text-decoration-color: red;
+}
+
+#gamespace {
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
 }
