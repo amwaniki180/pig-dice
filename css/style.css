@@ -11,8 +11,5 @@ body {
 }
 
 #gamespace {
-    display: flex;
-    flex-flow: wrap;
-    text-align: center;
-    justify-content: center;
+    font-size: 40px;
 }
