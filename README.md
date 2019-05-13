@@ -13,12 +13,12 @@ Antony Mwaniki
 3.javascript
 
 # BDD
-   ## Behaviour	                             ## Output
-## Player clicks roll	          ## The dice rolls on the player who is active
-## Player clicks hold	          ##The opponent player is given a chance to roll the dice
-## Player reaches 100 points     ##The player is alerted to have won the game
-
-
+|put BEHAVIOUR 
+|INPUT                          |OUTPUT
+|-------------------------------:|:------------------------------------------------------:|
+|  # Player clicks roll	        | The dice rolls on the player who is active
+| Player clicks hold	           |The opponent player is given a chance to roll the dice|
+| Player reaches 100 points    |The player is alerted to have won the game             |
 
 
 ## Installation:
