@@ -22,11 +22,11 @@ Antony Mwaniki
 
 
 ## Installation:
-use  the link to be able to acess the site..
+use  the link to be able to acess the site..https://amwaniki180.github.io/pig-dice/
 Aterwards play the game with the rules provided.
 
 ## live link
-
+https://amwaniki180.github.io/pig-dice/
 
 ## Support
 Email:amwaniki51@yahoo.com
