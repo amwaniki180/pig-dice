@@ -59,5 +59,16 @@ var holdDice = function()  {
       document.querySelector('.player1').classList.toggle('active');
       document.querySelector('.player2').classList.toggle('active');
 
+    }
 
-  }
+  // front end
+  ("#roll").click(function() {
+   rollDice();
+});
+
+
+$("#hold").click(function() {
+   holdDice();
+});
+
+});
